@@ -14,6 +14,7 @@
 		4932EA2D1AD638C1003EC2BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4932EA2C1AD638C1003EC2BA /* Images.xcassets */; };
 		4932EA301AD638C1003EC2BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4932EA2E1AD638C1003EC2BA /* LaunchScreen.xib */; };
 		4932EA3C1AD638C1003EC2BA /* CircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932EA3B1AD638C1003EC2BA /* CircleTests.m */; };
+		4932EA471AD63DCE003EC2BA /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932EA461AD63DCE003EC2BA /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4932EA351AD638C1003EC2BA /* CircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932EA3A1AD638C1003EC2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4932EA3B1AD638C1003EC2BA /* CircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleTests.m; sourceTree = "<group>"; };
+		4932EA451AD63DCE003EC2BA /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		4932EA461AD63DCE003EC2BA /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				4932EA241AD638C1003EC2BA /* AppDelegate.m */,
 				4932EA261AD638C1003EC2BA /* ViewController.h */,
 				4932EA271AD638C1003EC2BA /* ViewController.m */,
+				4932EA451AD63DCE003EC2BA /* Player.h */,
+				4932EA461AD63DCE003EC2BA /* Player.m */,
 				4932EA291AD638C1003EC2BA /* Main.storyboard */,
 				4932EA2C1AD638C1003EC2BA /* Images.xcassets */,
 				4932EA2E1AD638C1003EC2BA /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4932EA471AD63DCE003EC2BA /* Player.m in Sources */,
 				4932EA281AD638C1003EC2BA /* ViewController.m in Sources */,
 				4932EA251AD638C1003EC2BA /* AppDelegate.m in Sources */,
 				4932EA221AD638C1003EC2BA /* main.m in Sources */,

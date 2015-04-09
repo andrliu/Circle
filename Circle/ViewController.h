@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property NSMutableArray *arrayOfSurvivors;
+@property BOOL isLastPlayerLeaving;
 
 @end
 
